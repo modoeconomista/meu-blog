@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Meu Blog</title>
-    <link>https://modoeconomista.github.io/</link>
+    <link>https://modoeconomista.github.io/meu-blog/</link>
     <description>Recent content on Meu Blog</description>
     <generator>Hugo -- 0.147.6</generator>
     <language>pt-br</language>
     <lastBuildDate>Wed, 28 May 2025 12:00:00 +0000</lastBuildDate>
-    <atom:link href="https://modoeconomista.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://modoeconomista.github.io/meu-blog/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Meu Primeiro Post</title>
-      <link>https://modoeconomista.github.io/posts/meu-primeiro-post/</link>
+      <link>https://modoeconomista.github.io/meu-blog/posts/meu-primeiro-post/</link>
       <pubDate>Wed, 28 May 2025 12:00:00 +0000</pubDate>
-      <guid>https://modoeconomista.github.io/posts/meu-primeiro-post/</guid>
+      <guid>https://modoeconomista.github.io/meu-blog/posts/meu-primeiro-post/</guid>
       <description>&lt;p&gt;Este é o meu primeiro post no blog feito com Hugo!&lt;/p&gt;</description>
     </item>
   </channel>

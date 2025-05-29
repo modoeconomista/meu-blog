@@ -2,17 +2,17 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://modoeconomista.github.io/</loc>
+    <loc>https://modoeconomista.github.io/meu-blog/</loc>
     <lastmod>2025-05-28T12:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://modoeconomista.github.io/posts/meu-primeiro-post/</loc>
+    <loc>https://modoeconomista.github.io/meu-blog/posts/meu-primeiro-post/</loc>
     <lastmod>2025-05-28T12:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://modoeconomista.github.io/posts/</loc>
+    <loc>https://modoeconomista.github.io/meu-blog/posts/</loc>
     <lastmod>2025-05-28T12:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://modoeconomista.github.io/categories/</loc>
+    <loc>https://modoeconomista.github.io/meu-blog/categories/</loc>
   </url><url>
-    <loc>https://modoeconomista.github.io/tags/</loc>
+    <loc>https://modoeconomista.github.io/meu-blog/tags/</loc>
   </url>
 </urlset>

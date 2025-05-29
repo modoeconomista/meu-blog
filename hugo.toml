@@ -1,11 +1,39 @@
-baseURL = "https://modoeconomista.github.io/"
-languageCode = "pt-br"
+baseURL = "https://modoeconomista.github.io/meu-blog/"
 title = "Meu Blog"
 theme = "PaperMod"
+languageCode = "pt-br"
+defaultContentLanguage = "pt"
 
 [params]
+  description = "Blog sobre estatística, saúde e jogos digitais"
+  author = "Seu Nome"
+  keywords = ["estatística", "educação médica", "jogos digitais", "hugo"]
+  env = "production"
   ShowReadingTime = true
-  ShowShareButtons = true
-  ShowPostNavLinks = true
-  ShowBreadCrumbs = true
-  ShowCodeCopyButtons = true
+  ShowPostTags = true
+  ShowPostCategories = true
+
+  [params.logo]
+    image = "/images/logo.svg"
+    alt = "Meu Blog Logo"
+
+  [[params.socialIcons]]
+    name = "github"
+    url = "https://github.com/modoeconomista"
+
+  [[params.socialIcons]]
+    name = "linkedin"
+    url = "https://www.linkedin.com/in/SEU_USUARIO"
+
+  [[params.socialIcons]]
+    name = "email"
+    url = "mailto:email@email.com"
+
+[params.footer]
+  copyright = "© 2025 - Meu Blog | Todos os direitos reservados"
+  poweredby = false
+
+[[menu.main]]
+  name = "Sobre"
+  url = "/about/"
+  weight = 10
