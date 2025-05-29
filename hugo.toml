@@ -13,6 +13,7 @@ defaultContentLanguage = "pt"
   ShowPostTags = true
   ShowPostCategories = true
 
+
   [params.logo]
     image = "/images/logo.svg"
     alt = "Meu Blog Logo"
