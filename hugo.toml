@@ -3,7 +3,9 @@ title = "Meu Blog"
 theme = "PaperMod"
 languageCode = "pt-br"
 defaultContentLanguage = "pt"
-paginate = 10
+[pagination]
+  pagerSize = 10
+
 
 [params]
   author = "Bruno Castro"
@@ -22,9 +24,10 @@ paginate = 10
   defaultTheme = "auto"
   disableThemeToggle = false
 
-  [params.logo]
-    image = "images/logo.png"
-    alt = "Logo do Meu Blog"
+    [params.logo]
+  image = "images/logo.png"
+  alt = "Logo do Meu Blog"
+
 
   [[params.socialIcons]]
     name = "github"

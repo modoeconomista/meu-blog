@@ -1,8 +1,8 @@
----
-title: "Sobre"
-date: 2025-05-28
-layout: page
----
++++
+title = "Sobre"
+date = 2025-05-29T15:00:00
+draft = false
++++
 
 Bem-vindo, 
 O Modo Economista nasceu da vontade de enxergar o mundo com mais profundidade — e de compartilhar essa nova perspectiva com quem também curte dados, análises e boas histórias por trás dos números.
