@@ -24,9 +24,10 @@ defaultContentLanguage = "pt"
   defaultTheme = "auto"
   disableThemeToggle = false
 
-    [params.logo]
+
+   [params.logo]
   image = "images/logo.png"
-  alt = "Logo do Meu Blog"
+  alt = "Logo do Blog"
 
 
   [[params.socialIcons]]
@@ -78,3 +79,6 @@ defaultContentLanguage = "pt"
   name = "Tags"
   url = "/tags/"
   weight = 5
+
+[params.assets]
+  customCSS = ["css/custom.css"]
