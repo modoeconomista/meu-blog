@@ -1,3 +1,83 @@
+/*
+  Customizations for Meu Blog - PaperMod Theme
+  -------------------------------------------
+*/
+
+/* Core Color Palette Adjustments */
+:root {
+    --theme: rgb(240, 248, 255); /* Azul Alice Blue - Fundo geral */
+    --entry: rgb(255, 255, 255); /* Fundo de entradas de post/páginas */
+    --primary: rgb(50, 70, 90); /* Cor principal do texto e elementos primários */
+    --secondary: rgb(100, 120, 140); /* Cor para texto secundário, datas, etc. */
+    --tertiary: rgb(200, 210, 220); /* Cor para elementos terciários, como botões inativos/fundo */
+    --content: rgb(60, 80, 100); /* Cor do texto dentro do conteúdo principal */
+    --code-block-bg: rgb(230, 235, 240); /* Fundo para blocos de código */
+    --code-bg: rgb(245, 245, 245); /* Fundo para código inline */
+    --border: rgb(180, 190, 200); /* Cor de bordas e divisores */
+}
+
+/* Dark Mode Color Palette Adjustments */
+.dark {
+    --theme: rgb(30, 40, 50); /* Fundo geral escuro */
+    --entry: rgb(40, 50, 60); /* Fundo de entradas de post/páginas escuro */
+    --primary: rgb(220, 230, 240); /* Texto principal claro */
+    --secondary: rgb(170, 180, 190); /* Texto secundário claro */
+    --tertiary: rgb(80, 90, 100); /* Elementos terciários escuros */
+    --content: rgb(200, 210, 220); /* Conteúdo claro */
+    --code-block-bg: rgb(50, 60, 70); /* Fundo escuro para blocos de código */
+    --code-bg: rgb(60, 70, 80); /* Fundo escuro para código inline */
+    --border: rgb(70, 80, 90); /* Borda escura */
+}
+
+/* Tipografia */
+/* Importa a fonte Merriweather (já está no head-custom.html, mas é bom ter uma redundância ou garantir a ordem) */
+/* Já presente no head-custom.html, então este comentário serve como lembrete. */
+
+/* Aplica a fonte Merriweather para o corpo do texto e conteúdo de posts (já feito no head-custom.html) */
+/* body, main, article, .post-content {
+    font-family: 'Merriweather', serif !important;
+} */
+
+/* Aplica uma nova fonte para títulos (requer importação no head-custom.html) */
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Montserrat', sans-serif !important; /* Exemplo de nova fonte para títulos */
+    font-weight: 700; /* Peso da fonte mais forte para títulos */
+    line-height: 1.3; /* Altura da linha para títulos */
+}
+
+/* Ajusta a altura da linha para o corpo do texto para melhor legibilidade */
+body {
+    line-height: 1.7;
+}
+
+/* Layout e Espaçamento */
+:root {
+    --main-width: 800px; /* Aumenta a largura do conteúdo principal para 800px */
+    --gap: 30px; /* Aumenta o espaçamento geral entre elementos */
+}
+
+/* Aumenta o preenchimento interno dos cartões de posts */
+.post-entry {
+    padding: var(--gap);
+}
+
+/* Elementos Interativos (Links e Botões) */
+a:hover {
+    color: var(--primary); /* Cor do texto ao passar o mouse sobre links */
+    box-shadow: 0 2px 0 var(--secondary); /* Sombra sutil abaixo do link ao passar o mouse */
+}
+
+button, input[type="button"], input[type="submit"] {
+    border-radius: 5px; /* Bordas arredondadas para botões */
+    transition: background-color 0.3s ease, color 0.3s ease; /* Transição suave para efeitos de hover */
+}
+
+button:hover, input[type="button"]:hover, input[type="submit"]:hover {
+    background-color: var(--secondary); /* Altera o fundo do botão ao passar o mouse */
+    color: var(--theme); /* Altera a cor do texto do botão ao passar o mouse */
+}
+
+/* Estilo para o logotipo (mantido do seu arquivo original) */
 .logo {
   height: 40px;
   vertical-align: middle;
